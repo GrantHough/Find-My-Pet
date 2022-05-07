@@ -17,6 +17,8 @@
 		581946C42826D4B500892670 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946C32826D4B500892670 /* WelcomePage.swift */; };
 		581946C62826EF8700892670 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946C52826EF8700892670 /* SignInView.swift */; };
 		581946C828270C6C00892670 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 581946C728270C6C00892670 /* GoogleService-Info.plist */; };
+		581C61C62827290F00802209 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581C61C52827290F00802209 /* HomePage.swift */; };
+		581C61C82827293000802209 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581C61C72827293000802209 /* SignUpView.swift */; };
 		585F8F31282723B800F9872B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F30282723B800F9872B /* FirebaseAuth */; };
 		585F8F33282723B800F9872B /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F32282723B800F9872B /* FirebaseAuthCombine-Community */; };
 		585F8F35282723B800F9872B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F34282723B800F9872B /* FirebaseDatabase */; };
@@ -57,6 +59,8 @@
 		581946C32826D4B500892670 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		581946C52826EF8700892670 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		581946C728270C6C00892670 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		581C61C52827290F00802209 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		581C61C72827293000802209 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				581946C32826D4B500892670 /* WelcomePage.swift */,
 				5819469B2826D44D00892670 /* ContentView.swift */,
 				581946C52826EF8700892670 /* SignInView.swift */,
+				581C61C72827293000802209 /* SignUpView.swift */,
+				581C61C52827290F00802209 /* HomePage.swift */,
 				5819469D2826D45000892670 /* Assets.xcassets */,
 				581946C728270C6C00892670 /* GoogleService-Info.plist */,
 				5819469F2826D45000892670 /* Preview Content */,
@@ -293,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581C61C62827290F00802209 /* HomePage.swift in Sources */,
 				581946C42826D4B500892670 /* WelcomePage.swift in Sources */,
 				5819469C2826D44D00892670 /* ContentView.swift in Sources */,
 				581946C62826EF8700892670 /* SignInView.swift in Sources */,
+				581C61C82827293000802209 /* SignUpView.swift in Sources */,
 				5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

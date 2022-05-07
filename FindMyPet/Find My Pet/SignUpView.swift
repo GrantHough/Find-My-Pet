@@ -1,34 +1,29 @@
 //
-//  SignInView.swift
-//  Find My pet
+//  SignUpView.swift
+//  Find My Pet
 //
 //  Created by Grant Hough on 5/7/22.
 //
 
 import SwiftUI
 
-struct SignInView: View {
-
+struct SignUpView: View {
+    
     @State var email = ""
     @State var password = ""
+    @EnvironmentObject var viewModel: AppViewModel
     
     var body: some View {
         
         NavigationView {
-           
+            
             ZStack {
                 
                 Color(.white)
                 
                 VStack {
                     
-                    Image("lost")
-                        .resizable()
-                        .frame(width: UIScreen.main.bounds.width * 1.03, height: UIScreen.main.bounds.height * 0.35, alignment: .center)
-                        .cornerRadius(50)
-//                        .saturation(0)
-                    
-                    Text("Login")
+                    Text("Sign Up")
                         .font(.system(size: 45, weight: .bold))
                         .foregroundColor(Color.black.opacity(0.85))
                         .shadow(radius:10)
@@ -57,49 +52,23 @@ struct SignInView: View {
                         .cornerRadius(20)
                         .shadow(radius:5)
                         .padding(.bottom, 5)
-         
-                    GradientButtonView(text: "Sign In", gradient: LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.37), Color.purple.opacity(0.45)]), startPoint: .topLeading, endPoint: .bottomTrailing), textColor: Color.white.opacity(0.9), offsetWidth: 50, offsetHeight: 0.07)
-                        .padding(.bottom, 5)
-                    
-                    Text("Forgot your password?")
-                        .font(.system(size: 13, weight: .medium))
-                        .foregroundColor(Color.blue.opacity(1))
-                        .shadow(radius:10)
-                        .padding(.leading)
-                        .padding(.trailing)
-                        .multilineTextAlignment(.center)
-                        .padding(.bottom, 150)
-                    
-                    HStack (spacing: 0) {
-                        Text("Don't have an account? ")
-                            .font(.system(size: 16, weight: .regular))
-                            .foregroundColor(Color.black.opacity(0.80))
-                            .shadow(radius:10)
-                        NavigationLink("Sign Up!", destination: SignUpView())
-                            .font(.system(size: 16, weight: .regular))
-                            .foregroundColor(Color.blue.opacity(1))
-                            .shadow(radius:10)
-                    }
-                    
                     
                 }
                 .ignoresSafeArea()
-                
+                    
             }
             .ignoresSafeArea()
             .onTapGesture {
-                        self.hideKeyboard()
-                    }
+                hideKeyboard()
+            }
         }
-        .navigationBackButton(color: .white, text: "Back")
+        .navigationBackButton(color: .blue, text: "Back")
+        .navigationBarHidden(true)
     }
-    
 }
-   
 
-struct SignInView_Previews: PreviewProvider {
+struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignInView()
+        SignUpView()
     }
 }
-

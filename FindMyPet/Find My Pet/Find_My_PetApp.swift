@@ -6,6 +6,8 @@
 //  
 
 import SwiftUI
+import FirebaseAuth
+import Firebase
 
 @main
 struct Find_My_PetApp: App {
@@ -47,5 +49,20 @@ struct NavigationBackButton: ViewModifier {
 extension View {
     func navigationBackButton(color: UIColor, text: String? = nil) -> some View {
         modifier(NavigationBackButton(color: color, text: text))
+    }
+}
+
+extension View {
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        FirebaseApp.configure()
+        return true
+        
     }
 }
