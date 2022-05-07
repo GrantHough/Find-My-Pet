@@ -15,6 +15,7 @@
 		581946B52826D45000892670 /* Find_My_petUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946B42826D45000892670 /* Find_My_petUITests.swift */; };
 		581946B72826D45000892670 /* Find_My_petUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946B62826D45000892670 /* Find_My_petUITestsLaunchTests.swift */; };
 		581946C42826D4B500892670 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946C32826D4B500892670 /* WelcomePage.swift */; };
+		581946C62826EF8700892670 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946C52826EF8700892670 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		581946B42826D45000892670 /* Find_My_petUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_petUITests.swift; sourceTree = "<group>"; };
 		581946B62826D45000892670 /* Find_My_petUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_petUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		581946C32826D4B500892670 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		581946C52826EF8700892670 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				581946992826D44D00892670 /* Find_My_petApp.swift */,
 				581946C32826D4B500892670 /* WelcomePage.swift */,
 				5819469B2826D44D00892670 /* ContentView.swift */,
+				581946C52826EF8700892670 /* SignInView.swift */,
 				5819469D2826D45000892670 /* Assets.xcassets */,
 				5819469F2826D45000892670 /* Preview Content */,
 			);
@@ -262,6 +265,7 @@
 			files = (
 				581946C42826D4B500892670 /* WelcomePage.swift in Sources */,
 				5819469C2826D44D00892670 /* ContentView.swift in Sources */,
+				581946C62826EF8700892670 /* SignInView.swift in Sources */,
 				5819469A2826D44D00892670 /* Find_My_petApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
