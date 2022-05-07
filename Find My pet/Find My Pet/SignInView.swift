@@ -24,11 +24,11 @@ struct SignInView: View {
                 
                 VStack {
                     
-                    Image("dog")
+                    Image("lost")
                         .resizable()
-                        .frame(width: UIScreen.main.bounds.width * 1.05, height: UIScreen.main.bounds.height * 0.35, alignment: .center)
+                        .frame(width: UIScreen.main.bounds.width * 1.03, height: UIScreen.main.bounds.height * 0.35, alignment: .center)
                         .cornerRadius(50)
-                        .saturation(0)
+//                        .saturation(0)
                     
                     Text("Login")
                         .font(.system(size: 45, weight: .bold))
@@ -60,9 +60,24 @@ struct SignInView: View {
                         .shadow(radius:5)
                         .padding(.bottom, 5)
          
-                    GradientButtonView(text: "Sign In", gradient: LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.37), Color.purple.opacity(0.45)]), startPoint: .topLeading, endPoint: .bottomTrailing), textColor: Color.white.opacity(0.9), offsetWidth: 80, offsetHeight: 0.07)
+                    GradientButtonView(text: "Sign In", gradient: LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.37), Color.purple.opacity(0.45)]), startPoint: .topLeading, endPoint: .bottomTrailing), textColor: Color.white.opacity(0.9), offsetWidth: 50, offsetHeight: 0.07)
                         .padding(.bottom, 5)
-                         
+                    
+                    Text("Forgot your password?")
+                        .font(.system(size: 13, weight: .medium))
+                        .foregroundColor(Color.black.opacity(0.80))
+                        .shadow(radius:10)
+                        .padding(.leading)
+                        .padding(.trailing)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 150)
+                        
+                    Text("Don't have an account? Sign Up!")
+                        .font(.system(size: 16, weight: .regular))
+                        .foregroundColor(Color.black.opacity(0.80))
+                        .shadow(radius:10)
+                        .padding(.leading)
+                        .padding(.trailing)
                     
                 }
                 .ignoresSafeArea()

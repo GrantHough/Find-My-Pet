@@ -1,6 +1,6 @@
 //
-//  Find_My_petApp.swift
-//  Find My pet
+//  Find_My_PetApp.swift
+//  Find My Pet
 //
 //  Created by Grant Hough on 5/7/22.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Find_My_petApp: App {
+struct Find_My_PetApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

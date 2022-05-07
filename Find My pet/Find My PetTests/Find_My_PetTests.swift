@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Find_My_pet
+@testable import Find_My_Pet
 
 class Find_My_petTests: XCTestCase {
 

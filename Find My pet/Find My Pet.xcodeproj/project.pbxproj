@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5819469A2826D44D00892670 /* Find_My_petApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946992826D44D00892670 /* Find_My_petApp.swift */; };
+		5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946992826D44D00892670 /* Find_My_PetApp.swift */; };
 		5819469C2826D44D00892670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5819469B2826D44D00892670 /* ContentView.swift */; };
 		5819469E2826D45000892670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5819469D2826D45000892670 /* Assets.xcassets */; };
 		581946A12826D45000892670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581946A02826D45000892670 /* Preview Assets.xcassets */; };
-		581946AB2826D45000892670 /* Find_My_petTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946AA2826D45000892670 /* Find_My_petTests.swift */; };
-		581946B52826D45000892670 /* Find_My_petUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946B42826D45000892670 /* Find_My_petUITests.swift */; };
-		581946B72826D45000892670 /* Find_My_petUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946B62826D45000892670 /* Find_My_petUITestsLaunchTests.swift */; };
+		581946AB2826D45000892670 /* Find_My_PetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946AA2826D45000892670 /* Find_My_PetTests.swift */; };
+		581946B52826D45000892670 /* Find_My_PetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946B42826D45000892670 /* Find_My_PetUITests.swift */; };
+		581946B72826D45000892670 /* Find_My_PetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946B62826D45000892670 /* Find_My_PetUITestsLaunchTests.swift */; };
 		581946C42826D4B500892670 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946C32826D4B500892670 /* WelcomePage.swift */; };
 		581946C62826EF8700892670 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946C52826EF8700892670 /* SignInView.swift */; };
 /* End PBXBuildFile section */
@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		581946962826D44D00892670 /* Find My pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		581946992826D44D00892670 /* Find_My_petApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_petApp.swift; sourceTree = "<group>"; };
+		581946962826D44D00892670 /* Find My Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		581946992826D44D00892670 /* Find_My_PetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_PetApp.swift; sourceTree = "<group>"; };
 		5819469B2826D44D00892670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5819469D2826D45000892670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581946A02826D45000892670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		581946A62826D45000892670 /* Find My petTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My petTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		581946AA2826D45000892670 /* Find_My_petTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_petTests.swift; sourceTree = "<group>"; };
-		581946B02826D45000892670 /* Find My petUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My petUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		581946B42826D45000892670 /* Find_My_petUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_petUITests.swift; sourceTree = "<group>"; };
-		581946B62826D45000892670 /* Find_My_petUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_petUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		581946A62826D45000892670 /* Find My PetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My PetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		581946AA2826D45000892670 /* Find_My_PetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_PetTests.swift; sourceTree = "<group>"; };
+		581946B02826D45000892670 /* Find My PetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My PetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		581946B42826D45000892670 /* Find_My_PetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_PetUITests.swift; sourceTree = "<group>"; };
+		581946B62826D45000892670 /* Find_My_PetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_PetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		581946C32826D4B500892670 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		581946C52826EF8700892670 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +78,9 @@
 		5819468D2826D44D00892670 = {
 			isa = PBXGroup;
 			children = (
-				581946982826D44D00892670 /* Find My pet */,
-				581946A92826D45000892670 /* Find My petTests */,
-				581946B32826D45000892670 /* Find My petUITests */,
+				581946982826D44D00892670 /* Find My Pet */,
+				581946A92826D45000892670 /* Find My PetTests */,
+				581946B32826D45000892670 /* Find My PetUITests */,
 				581946972826D44D00892670 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,24 +88,24 @@
 		581946972826D44D00892670 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				581946962826D44D00892670 /* Find My pet.app */,
-				581946A62826D45000892670 /* Find My petTests.xctest */,
-				581946B02826D45000892670 /* Find My petUITests.xctest */,
+				581946962826D44D00892670 /* Find My Pet.app */,
+				581946A62826D45000892670 /* Find My PetTests.xctest */,
+				581946B02826D45000892670 /* Find My PetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		581946982826D44D00892670 /* Find My pet */ = {
+		581946982826D44D00892670 /* Find My Pet */ = {
 			isa = PBXGroup;
 			children = (
-				581946992826D44D00892670 /* Find_My_petApp.swift */,
+				581946992826D44D00892670 /* Find_My_PetApp.swift */,
 				581946C32826D4B500892670 /* WelcomePage.swift */,
 				5819469B2826D44D00892670 /* ContentView.swift */,
 				581946C52826EF8700892670 /* SignInView.swift */,
 				5819469D2826D45000892670 /* Assets.xcassets */,
 				5819469F2826D45000892670 /* Preview Content */,
 			);
-			path = "Find My pet";
+			path = "Find My Pet";
 			sourceTree = "<group>";
 		};
 		5819469F2826D45000892670 /* Preview Content */ = {
@@ -116,29 +116,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		581946A92826D45000892670 /* Find My petTests */ = {
+		581946A92826D45000892670 /* Find My PetTests */ = {
 			isa = PBXGroup;
 			children = (
-				581946AA2826D45000892670 /* Find_My_petTests.swift */,
+				581946AA2826D45000892670 /* Find_My_PetTests.swift */,
 			);
-			path = "Find My petTests";
+			path = "Find My PetTests";
 			sourceTree = "<group>";
 		};
-		581946B32826D45000892670 /* Find My petUITests */ = {
+		581946B32826D45000892670 /* Find My PetUITests */ = {
 			isa = PBXGroup;
 			children = (
-				581946B42826D45000892670 /* Find_My_petUITests.swift */,
-				581946B62826D45000892670 /* Find_My_petUITestsLaunchTests.swift */,
+				581946B42826D45000892670 /* Find_My_PetUITests.swift */,
+				581946B62826D45000892670 /* Find_My_PetUITestsLaunchTests.swift */,
 			);
-			path = "Find My petUITests";
+			path = "Find My PetUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		581946952826D44D00892670 /* Find My pet */ = {
+		581946952826D44D00892670 /* Find My Pet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 581946BA2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My pet" */;
+			buildConfigurationList = 581946BA2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My Pet" */;
 			buildPhases = (
 				581946922826D44D00892670 /* Sources */,
 				581946932826D44D00892670 /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = "Find My pet";
+			name = "Find My Pet";
 			productName = "Find My pet";
-			productReference = 581946962826D44D00892670 /* Find My pet.app */;
+			productReference = 581946962826D44D00892670 /* Find My Pet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		581946A52826D45000892670 /* Find My petTests */ = {
+		581946A52826D45000892670 /* Find My PetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 581946BD2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My petTests" */;
+			buildConfigurationList = 581946BD2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My PetTests" */;
 			buildPhases = (
 				581946A22826D45000892670 /* Sources */,
 				581946A32826D45000892670 /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				581946A82826D45000892670 /* PBXTargetDependency */,
 			);
-			name = "Find My petTests";
+			name = "Find My PetTests";
 			productName = "Find My petTests";
-			productReference = 581946A62826D45000892670 /* Find My petTests.xctest */;
+			productReference = 581946A62826D45000892670 /* Find My PetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		581946AF2826D45000892670 /* Find My petUITests */ = {
+		581946AF2826D45000892670 /* Find My PetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 581946C02826D45000892670 /* Build configuration list for PBXNativeTarget "Find My petUITests" */;
+			buildConfigurationList = 581946C02826D45000892670 /* Build configuration list for PBXNativeTarget "Find My PetUITests" */;
 			buildPhases = (
 				581946AC2826D45000892670 /* Sources */,
 				581946AD2826D45000892670 /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				581946B22826D45000892670 /* PBXTargetDependency */,
 			);
-			name = "Find My petUITests";
+			name = "Find My PetUITests";
 			productName = "Find My petUITests";
-			productReference = 581946B02826D45000892670 /* Find My petUITests.xctest */;
+			productReference = 581946B02826D45000892670 /* Find My PetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 581946912826D44D00892670 /* Build configuration list for PBXProject "Find My pet" */;
+			buildConfigurationList = 581946912826D44D00892670 /* Build configuration list for PBXProject "Find My Pet" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				581946952826D44D00892670 /* Find My pet */,
-				581946A52826D45000892670 /* Find My petTests */,
-				581946AF2826D45000892670 /* Find My petUITests */,
+				581946952826D44D00892670 /* Find My Pet */,
+				581946A52826D45000892670 /* Find My PetTests */,
+				581946AF2826D45000892670 /* Find My PetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 				581946C42826D4B500892670 /* WelcomePage.swift in Sources */,
 				5819469C2826D44D00892670 /* ContentView.swift in Sources */,
 				581946C62826EF8700892670 /* SignInView.swift in Sources */,
-				5819469A2826D44D00892670 /* Find_My_petApp.swift in Sources */,
+				5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				581946AB2826D45000892670 /* Find_My_petTests.swift in Sources */,
+				581946AB2826D45000892670 /* Find_My_PetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				581946B52826D45000892670 /* Find_My_petUITests.swift in Sources */,
-				581946B72826D45000892670 /* Find_My_petUITestsLaunchTests.swift in Sources */,
+				581946B52826D45000892670 /* Find_My_PetUITests.swift in Sources */,
+				581946B72826D45000892670 /* Find_My_PetUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		581946A82826D45000892670 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 581946952826D44D00892670 /* Find My pet */;
+			target = 581946952826D44D00892670 /* Find My Pet */;
 			targetProxy = 581946A72826D45000892670 /* PBXContainerItemProxy */;
 		};
 		581946B22826D45000892670 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 581946952826D44D00892670 /* Find My pet */;
+			target = 581946952826D44D00892670 /* Find My Pet */;
 			targetProxy = 581946B12826D45000892670 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,8 +438,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.granthough.Find-My-pet";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.granthough.Find-My-Pet";
+				PRODUCT_NAME = "Find My Pet";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,8 +467,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.granthough.Find-My-pet";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.granthough.Find-My-Pet";
+				PRODUCT_NAME = "Find My Pet";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +491,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find My pet.app/Find My pet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find My Pet.app/Find My Pet";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find My pet.app/Find My pet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find My Pet.app/Find My Pet";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		581946912826D44D00892670 /* Build configuration list for PBXProject "Find My pet" */ = {
+		581946912826D44D00892670 /* Build configuration list for PBXProject "Find My Pet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				581946B82826D45000892670 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		581946BA2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My pet" */ = {
+		581946BA2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My Pet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				581946BB2826D45000892670 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		581946BD2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My petTests" */ = {
+		581946BD2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My PetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				581946BE2826D45000892670 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		581946C02826D45000892670 /* Build configuration list for PBXNativeTarget "Find My petUITests" */ = {
+		581946C02826D45000892670 /* Build configuration list for PBXNativeTarget "Find My PetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				581946C12826D45000892670 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Find My pet
+//  Find My Pet
 //
 //  Created by Grant Hough on 5/7/22.
 //

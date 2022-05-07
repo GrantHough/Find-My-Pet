@@ -162,7 +162,7 @@ struct ButtonView:View {
             Image("")
             
             Text(text)
-                .font(.title3)
+                .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(textColor)
             
@@ -193,7 +193,7 @@ struct GradientButtonView:View {
             Image("")
             
             Text(text)
-                .font(.title3)
+                .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(textColor)
             
