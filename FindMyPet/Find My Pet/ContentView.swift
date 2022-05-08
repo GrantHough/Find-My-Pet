@@ -17,48 +17,52 @@ class AppViewModel: ObservableObject {
     
     let auth = Auth.auth()
     
-    func signIn(email: String, password: String) { //login
-           auth.signIn(withEmail: email, password: password) { [weak self] (result, error) in
-               
-               
-               if error != nil {
-                   //erroralert
-               }
-             
-               else {
-                   self?.isSuccessful = true
-                   print("Signed In")
-               }
-            
-               guard result != nil, error == nil else {
-                   //self?.alertIsShowing = true
-                   return
-               }
-               
-               DispatchQueue.main.async {
-                   self?.signedIn = true
-               }
-           }
-       }
+    var isSignedIn: Bool {
+        return auth.currentUser != nil
+    }
     
-    func signUp(email: String, password: String) {
-            auth.createUser(withEmail: email, password: password) { [weak self] result, error in
-                
-                if error != nil {
-                    //self?.signInAlert = true
-                }
-                
-                guard result != nil, error == nil else {
-                    //self?.alertIsShowing = true
-                    return
-                }
-                
-                DispatchQueue.main.async {
-                    self?.signedIn = true
-                }
-                
+    func signIn(email: String, password: String) { //login
+        auth.signIn(withEmail: email, password: password) { [weak self] (result, error) in
+            
+            
+            if error != nil {
+                //erroralert
+            }
+            
+            else {
+                self?.isSuccessful = true
+                print("Signed In")
+            }
+            
+            guard result != nil, error == nil else {
+                //self?.alertIsShowing = true
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self?.signedIn = true
             }
         }
+    }
+    
+    func signUp(email: String, password: String) {
+        auth.createUser(withEmail: email, password: password) { [weak self] result, error in
+            
+            if error != nil {
+                //self?.signInAlert = true
+            }
+            
+            guard result != nil, error == nil else {
+                //self?.alertIsShowing = true
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self?.signedIn = true
+            }
+            
+        }
+    }
     
     func resetPassword(email: String, resetCompletion: @escaping (Result<Bool,Error>) -> Void) {
         Auth.auth().sendPasswordReset(withEmail: email, completion: { (error) in
@@ -76,9 +80,9 @@ class AppViewModel: ObservableObject {
     }
     
     func signOut() {
-            try? auth.signOut()
-            self.signedIn = false
-        }
+        try? auth.signOut()
+        self.signedIn = false
+    }
     
 }
 
@@ -88,18 +92,25 @@ struct ContentView: View {
     
     var body: some View {
         
-//        if (viewModel.signedIn) {
-//
-//            HomePage()
-//
-//        }
-//
-//        else {
-//
+        if (viewModel.signedIn) {
+            
+            HomePage()
+                .onAppear {
+                    viewModel.signedIn = viewModel.isSignedIn
+                    
+                }
+        }
+        
+        else {
+            
             WelcomePage()
-     
-//        }
-//
+                .onAppear {
+                    viewModel.signedIn = viewModel.isSignedIn
+                    
+                }
+            
+        }
+        
     }
 }
 

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5801A17228275DC30002BBFC /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A17128275DC30002BBFC /* PostListViewModel.swift */; };
+		5801A176282761080002BBFC /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A175282761080002BBFC /* PostView.swift */; };
+		5801A178282763510002BBFC /* PostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A177282763510002BBFC /* PostUI.swift */; };
+		5801A17A282763A90002BBFC /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A179282763A90002BBFC /* PostViewModel.swift */; };
+		5801A17C282766B50002BBFC /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A17B282766B50002BBFC /* FormView.swift */; };
+		5801A18028279B5B0002BBFC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A17F28279B5B0002BBFC /* ImagePicker.swift */; };
+		5801A1822827A04A0002BBFC /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A1812827A04A0002BBFC /* ProfilePage.swift */; };
 		5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946992826D44D00892670 /* Find_My_PetApp.swift */; };
 		5819469C2826D44D00892670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5819469B2826D44D00892670 /* ContentView.swift */; };
 		5819469E2826D45000892670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5819469D2826D45000892670 /* Assets.xcassets */; };
@@ -19,13 +26,12 @@
 		581946C828270C6C00892670 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 581946C728270C6C00892670 /* GoogleService-Info.plist */; };
 		581C61C62827290F00802209 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581C61C52827290F00802209 /* HomePage.swift */; };
 		581C61C82827293000802209 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581C61C72827293000802209 /* SignUpView.swift */; };
-		585F8F31282723B800F9872B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F30282723B800F9872B /* FirebaseAuth */; };
-		585F8F33282723B800F9872B /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F32282723B800F9872B /* FirebaseAuthCombine-Community */; };
-		585F8F35282723B800F9872B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F34282723B800F9872B /* FirebaseDatabase */; };
-		585F8F37282723B800F9872B /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F36282723B800F9872B /* FirebaseDatabaseSwift */; };
-		585F8F39282723B800F9872B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F38282723B800F9872B /* FirebaseFirestore */; };
-		585F8F3B282723B800F9872B /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F3A282723B800F9872B /* FirebaseFirestoreCombine-Community */; };
-		585F8F3D282723B800F9872B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 585F8F3C282723B800F9872B /* FirebaseFirestoreSwift */; };
+		587FBC6428274352002CB9E8 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FBC6328274352002CB9E8 /* Settings.swift */; };
+		587FBC6628275A06002CB9E8 /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FBC6528275A06002CB9E8 /* PostRepository.swift */; };
+		587FBC6828275AA2002CB9E8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FBC6728275AA2002CB9E8 /* Post.swift */; };
+		7D8486E517B2BB7AE596F9B5 /* Pods_Find_My_Pet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F18FEA3A3334351C9F1ED93 /* Pods_Find_My_Pet.framework */; };
+		8D6C7F0604627EFD98C01CF6 /* Pods_Find_My_PetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8BF0A4D000F7A0DBFAD5D /* Pods_Find_My_PetTests.framework */; };
+		E4AF6C3CB5B8888AB0D1385E /* Pods_Find_My_Pet_Find_My_PetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36F3781108E2818F4777016 /* Pods_Find_My_Pet_Find_My_PetUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F18FEA3A3334351C9F1ED93 /* Pods_Find_My_Pet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_My_Pet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27825B7CCA4CCF1DBD3C157C /* Pods-Find My Pet-Find My PetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Pet-Find My PetUITests.release.xcconfig"; path = "Target Support Files/Pods-Find My Pet-Find My PetUITests/Pods-Find My Pet-Find My PetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		522CAD39BDCAC7808DF02EB9 /* Pods-Find My Pet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Pet.debug.xcconfig"; path = "Target Support Files/Pods-Find My Pet/Pods-Find My Pet.debug.xcconfig"; sourceTree = "<group>"; };
+		5801A17128275DC30002BBFC /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		5801A175282761080002BBFC /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		5801A177282763510002BBFC /* PostUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUI.swift; sourceTree = "<group>"; };
+		5801A179282763A90002BBFC /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		5801A17B282766B50002BBFC /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		5801A17F28279B5B0002BBFC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		5801A1812827A04A0002BBFC /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		581946962826D44D00892670 /* Find My Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581946992826D44D00892670 /* Find_My_PetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_PetApp.swift; sourceTree = "<group>"; };
 		5819469B2826D44D00892670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +77,15 @@
 		581946C728270C6C00892670 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		581C61C52827290F00802209 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		581C61C72827293000802209 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		587FBC6328274352002CB9E8 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		587FBC6528275A06002CB9E8 /* PostRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepository.swift; sourceTree = "<group>"; };
+		587FBC6728275AA2002CB9E8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		63DE221097E57F002F630B3D /* Pods-Find My PetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My PetTests.debug.xcconfig"; path = "Target Support Files/Pods-Find My PetTests/Pods-Find My PetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85DFE49ED3D6F08FB4CADCD5 /* Pods-Find My PetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My PetTests.release.xcconfig"; path = "Target Support Files/Pods-Find My PetTests/Pods-Find My PetTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2D8BF0A4D000F7A0DBFAD5D /* Pods_Find_My_PetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_My_PetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45B53D7A48CA14468638309 /* Pods-Find My Pet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Pet.release.xcconfig"; path = "Target Support Files/Pods-Find My Pet/Pods-Find My Pet.release.xcconfig"; sourceTree = "<group>"; };
+		E36F3781108E2818F4777016 /* Pods_Find_My_Pet_Find_My_PetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_My_Pet_Find_My_PetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEC086D43C985A6C32B5107 /* Pods-Find My Pet-Find My PetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Pet-Find My PetUITests.debug.xcconfig"; path = "Target Support Files/Pods-Find My Pet-Find My PetUITests/Pods-Find My Pet-Find My PetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585F8F37282723B800F9872B /* FirebaseDatabaseSwift in Frameworks */,
-				585F8F35282723B800F9872B /* FirebaseDatabase in Frameworks */,
-				585F8F31282723B800F9872B /* FirebaseAuth in Frameworks */,
-				585F8F3D282723B800F9872B /* FirebaseFirestoreSwift in Frameworks */,
-				585F8F3B282723B800F9872B /* FirebaseFirestoreCombine-Community in Frameworks */,
-				585F8F39282723B800F9872B /* FirebaseFirestore in Frameworks */,
-				585F8F33282723B800F9872B /* FirebaseAuthCombine-Community in Frameworks */,
+				7D8486E517B2BB7AE596F9B5 /* Pods_Find_My_Pet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6C7F0604627EFD98C01CF6 /* Pods_Find_My_PetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +109,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AF6C3CB5B8888AB0D1385E /* Pods_Find_My_Pet_Find_My_PetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1831586F5CDC4B431B4A83E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				522CAD39BDCAC7808DF02EB9 /* Pods-Find My Pet.debug.xcconfig */,
+				B45B53D7A48CA14468638309 /* Pods-Find My Pet.release.xcconfig */,
+				FCEC086D43C985A6C32B5107 /* Pods-Find My Pet-Find My PetUITests.debug.xcconfig */,
+				27825B7CCA4CCF1DBD3C157C /* Pods-Find My Pet-Find My PetUITests.release.xcconfig */,
+				63DE221097E57F002F630B3D /* Pods-Find My PetTests.debug.xcconfig */,
+				85DFE49ED3D6F08FB4CADCD5 /* Pods-Find My PetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5819468D2826D44D00892670 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +136,8 @@
 				581946A92826D45000892670 /* Find My PetTests */,
 				581946B32826D45000892670 /* Find My PetUITests */,
 				581946972826D44D00892670 /* Products */,
+				FDC3F65C63C961F450A17B44 /* Frameworks */,
+				1831586F5CDC4B431B4A83E5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,11 +155,21 @@
 			isa = PBXGroup;
 			children = (
 				581946992826D44D00892670 /* Find_My_PetApp.swift */,
+				587FBC6328274352002CB9E8 /* Settings.swift */,
 				581946C32826D4B500892670 /* WelcomePage.swift */,
+				587FBC6528275A06002CB9E8 /* PostRepository.swift */,
+				587FBC6728275AA2002CB9E8 /* Post.swift */,
 				5819469B2826D44D00892670 /* ContentView.swift */,
+				5801A17128275DC30002BBFC /* PostListViewModel.swift */,
 				581946C52826EF8700892670 /* SignInView.swift */,
+				5801A17F28279B5B0002BBFC /* ImagePicker.swift */,
 				581C61C72827293000802209 /* SignUpView.swift */,
 				581C61C52827290F00802209 /* HomePage.swift */,
+				5801A1812827A04A0002BBFC /* ProfilePage.swift */,
+				5801A175282761080002BBFC /* PostView.swift */,
+				5801A17B282766B50002BBFC /* FormView.swift */,
+				5801A177282763510002BBFC /* PostUI.swift */,
+				5801A179282763A90002BBFC /* PostViewModel.swift */,
 				5819469D2826D45000892670 /* Assets.xcassets */,
 				581946C728270C6C00892670 /* GoogleService-Info.plist */,
 				5819469F2826D45000892670 /* Preview Content */,
@@ -156,6 +202,16 @@
 			path = "Find My PetUITests";
 			sourceTree = "<group>";
 		};
+		FDC3F65C63C961F450A17B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F18FEA3A3334351C9F1ED93 /* Pods_Find_My_Pet.framework */,
+				E36F3781108E2818F4777016 /* Pods_Find_My_Pet_Find_My_PetUITests.framework */,
+				B2D8BF0A4D000F7A0DBFAD5D /* Pods_Find_My_PetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,24 +219,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 581946BA2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My Pet" */;
 			buildPhases = (
+				0DDF85B93A2C848EBE77767B /* [CP] Check Pods Manifest.lock */,
 				581946922826D44D00892670 /* Sources */,
 				581946932826D44D00892670 /* Frameworks */,
 				581946942826D44D00892670 /* Resources */,
+				3979CC434ABDC5766DE81F33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Find My Pet";
-			packageProductDependencies = (
-				585F8F30282723B800F9872B /* FirebaseAuth */,
-				585F8F32282723B800F9872B /* FirebaseAuthCombine-Community */,
-				585F8F34282723B800F9872B /* FirebaseDatabase */,
-				585F8F36282723B800F9872B /* FirebaseDatabaseSwift */,
-				585F8F38282723B800F9872B /* FirebaseFirestore */,
-				585F8F3A282723B800F9872B /* FirebaseFirestoreCombine-Community */,
-				585F8F3C282723B800F9872B /* FirebaseFirestoreSwift */,
-			);
 			productName = "Find My pet";
 			productReference = 581946962826D44D00892670 /* Find My Pet.app */;
 			productType = "com.apple.product-type.application";
@@ -189,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 581946BD2826D45000892670 /* Build configuration list for PBXNativeTarget "Find My PetTests" */;
 			buildPhases = (
+				2FD0FE8DB4BD34622C7FDAAB /* [CP] Check Pods Manifest.lock */,
 				581946A22826D45000892670 /* Sources */,
 				581946A32826D45000892670 /* Frameworks */,
 				581946A42826D45000892670 /* Resources */,
@@ -207,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 581946C02826D45000892670 /* Build configuration list for PBXNativeTarget "Find My PetUITests" */;
 			buildPhases = (
+				717ABE0CC32FD48DD348A6E1 /* [CP] Check Pods Manifest.lock */,
 				581946AC2826D45000892670 /* Sources */,
 				581946AD2826D45000892670 /* Frameworks */,
 				581946AE2826D45000892670 /* Resources */,
+				DAE3C43B8A8EB63C442153C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,9 +305,6 @@
 				Base,
 			);
 			mainGroup = 5819468D2826D44D00892670;
-			packageReferences = (
-				585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 581946972826D44D00892670 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -294,17 +343,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DDF85B93A2C848EBE77767B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find My Pet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD0FE8DB4BD34622C7FDAAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find My PetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3979CC434ABDC5766DE81F33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Pet/Pods-Find My Pet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Pet/Pods-Find My Pet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find My Pet/Pods-Find My Pet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717ABE0CC32FD48DD348A6E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find My Pet-Find My PetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE3C43B8A8EB63C442153C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Pet-Find My PetUITests/Pods-Find My Pet-Find My PetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Pet-Find My PetUITests/Pods-Find My Pet-Find My PetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find My Pet-Find My PetUITests/Pods-Find My Pet-Find My PetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		581946922826D44D00892670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5801A17A282763A90002BBFC /* PostViewModel.swift in Sources */,
 				581C61C62827290F00802209 /* HomePage.swift in Sources */,
+				5801A17C282766B50002BBFC /* FormView.swift in Sources */,
+				587FBC6828275AA2002CB9E8 /* Post.swift in Sources */,
 				581946C42826D4B500892670 /* WelcomePage.swift in Sources */,
+				5801A178282763510002BBFC /* PostUI.swift in Sources */,
+				5801A17228275DC30002BBFC /* PostListViewModel.swift in Sources */,
 				5819469C2826D44D00892670 /* ContentView.swift in Sources */,
 				581946C62826EF8700892670 /* SignInView.swift in Sources */,
+				587FBC6628275A06002CB9E8 /* PostRepository.swift in Sources */,
+				5801A1822827A04A0002BBFC /* ProfilePage.swift in Sources */,
+				587FBC6428274352002CB9E8 /* Settings.swift in Sources */,
 				581C61C82827293000802209 /* SignUpView.swift in Sources */,
 				5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */,
+				5801A18028279B5B0002BBFC /* ImagePicker.swift in Sources */,
+				5801A176282761080002BBFC /* PostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +619,7 @@
 		};
 		581946BB2826D45000892670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522CAD39BDCAC7808DF02EB9 /* Pods-Find My Pet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +639,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.granthough.Find-My-Pet";
 				PRODUCT_NAME = "Find My Pet";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -486,6 +650,7 @@
 		};
 		581946BC2826D45000892670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45B53D7A48CA14468638309 /* Pods-Find My Pet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,6 +670,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.granthough.Find-My-Pet";
 				PRODUCT_NAME = "Find My Pet";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -515,6 +681,7 @@
 		};
 		581946BE2826D45000892670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DE221097E57F002F630B3D /* Pods-Find My PetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +702,7 @@
 		};
 		581946BF2826D45000892670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DFE49ED3D6F08FB4CADCD5 /* Pods-Find My PetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +723,7 @@
 		};
 		581946C12826D45000892670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEC086D43C985A6C32B5107 /* Pods-Find My Pet-Find My PetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +742,7 @@
 		};
 		581946C22826D45000892670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27825B7CCA4CCF1DBD3C157C /* Pods-Find My Pet-Find My PetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -629,55 +799,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		585F8F30282723B800F9872B /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		585F8F32282723B800F9872B /* FirebaseAuthCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
-		};
-		585F8F34282723B800F9872B /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		585F8F36282723B800F9872B /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		585F8F38282723B800F9872B /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		585F8F3A282723B800F9872B /* FirebaseFirestoreCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreCombine-Community";
-		};
-		585F8F3C282723B800F9872B /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 585F8F2F282723B800F9872B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5819468E2826D44D00892670 /* Project object */;
 }

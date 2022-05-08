@@ -2,9 +2,22 @@
 # platform :ios, '9.0'
 
 target 'Find My Pet' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
 
-  pod 'Firebase/Core'
+  # Pods for Find My Pet
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Core'
+  pod 'FirebaseFirestoreSwift'
 
+  target 'Find My PetTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Find My PetUITests' do
+    # Pods for testing
+  end
 
 end

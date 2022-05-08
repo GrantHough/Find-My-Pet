@@ -69,10 +69,10 @@ struct WelcomePage: View {
                 }
                 
             }
-            
             .ignoresSafeArea()
             
         }
+//        .navigationBackButton(color: .white, text: "Back") doesnt work odd
     }
 }
 
