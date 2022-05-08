@@ -14,6 +14,7 @@
 		5801A17C282766B50002BBFC /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A17B282766B50002BBFC /* FormView.swift */; };
 		5801A18028279B5B0002BBFC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A17F28279B5B0002BBFC /* ImagePicker.swift */; };
 		5801A1822827A04A0002BBFC /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A1812827A04A0002BBFC /* ProfilePage.swift */; };
+		581390C72827C6FB00510576 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581390C62827C6FB00510576 /* CompareView.swift */; };
 		5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581946992826D44D00892670 /* Find_My_PetApp.swift */; };
 		5819469C2826D44D00892670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5819469B2826D44D00892670 /* ContentView.swift */; };
 		5819469E2826D45000892670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5819469D2826D45000892670 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		5801A17B282766B50002BBFC /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		5801A17F28279B5B0002BBFC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		5801A1812827A04A0002BBFC /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		581390C62827C6FB00510576 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
 		581946962826D44D00892670 /* Find My Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581946992826D44D00892670 /* Find_My_PetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_PetApp.swift; sourceTree = "<group>"; };
 		5819469B2826D44D00892670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				5801A1812827A04A0002BBFC /* ProfilePage.swift */,
 				5801A175282761080002BBFC /* PostView.swift */,
 				5801A17B282766B50002BBFC /* FormView.swift */,
+				581390C62827C6FB00510576 /* CompareView.swift */,
 				5801A177282763510002BBFC /* PostUI.swift */,
 				5801A179282763A90002BBFC /* PostViewModel.swift */,
 				5819469D2826D45000892670 /* Assets.xcassets */,
@@ -464,6 +467,7 @@
 				5801A1822827A04A0002BBFC /* ProfilePage.swift in Sources */,
 				587FBC6428274352002CB9E8 /* Settings.swift in Sources */,
 				581C61C82827293000802209 /* SignUpView.swift in Sources */,
+				581390C72827C6FB00510576 /* CompareView.swift in Sources */,
 				5819469A2826D44D00892670 /* Find_My_PetApp.swift in Sources */,
 				5801A18028279B5B0002BBFC /* ImagePicker.swift in Sources */,
 				5801A176282761080002BBFC /* PostView.swift in Sources */,

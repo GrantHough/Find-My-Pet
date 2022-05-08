@@ -41,8 +41,16 @@ struct HomePage: View {
                 .ignoresSafeArea()
                 .tabItem {
                     Image(systemName: "person")
-                    Text("Profile")
+                    Text("My Profile")
                 }
+                
+                CompareView()
+                    .tabItem {
+                        
+                        Image(systemName: "compare")
+                        Text("Compare Sitings")
+                        
+                    }
                 
                 Settings()
                     .tabItem {
