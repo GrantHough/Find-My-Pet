@@ -25,7 +25,7 @@ struct PostView: View {
                     .padding(.leading)
                     .padding(.trailing)
                     .multilineTextAlignment(.center)
-                    .edgesIgnoringSafeArea(.top)
+                    .edgesIgnoringSafeArea(.top)    
                 
                 Toggle(isOn: $found) {Text ("Animals that have been" + "\(found ? " lost:" : " found:")")}
                     .padding(.leading)
